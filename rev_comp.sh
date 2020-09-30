@@ -1,4 +1,12 @@
 #! /bin/sh
+#
+
+if [ $# -lt 1 ]; then
+Echo "Attention: Must provide a single argument when operating this script"
+else
+[ $# -eq 1 ]
+Echo "FASTA file is loaded correctly
+fi
 
 #initialize variable
 reverse=""
