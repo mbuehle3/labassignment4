@@ -1,4 +1,7 @@
 #! /bin/sh
+#
+Echo "Attention: Must provide a single argument hwne operating this script"
+
 
 #initialize variable
 reverse=""
