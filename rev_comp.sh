@@ -32,4 +32,4 @@ rc=`echo $reverse | tr [=CHAR=] 'atcg' 'tagc'`
 
 
 echo $name >$1.rc.txt
-echo $rc >>$1.rc.txt
+echo $rc >>rc.$1.txt
