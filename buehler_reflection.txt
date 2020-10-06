@@ -1,0 +1,8 @@
+My current methodology for managing my code and work flow would not meet the standards for scientific reproducibility. 
+I have not done much work with bioinformatic pipelines, but I do use phylogenetic software quite frequently, and I think one way that I could make my research  more open access even as a systematist, is to make the log files from the final runs of each analysis available on repository such as git.
+Generally the log files contain sequence information, seed numbers, program version numbers, and any other parameter settings that were set. 
+In some instances the whole alignment is included in the log file (beast files), but in the off change they are not including a file with the genbank accession numbers would make the research much more reproducible. 
+
+If the researchers that create programs that accomplish specific and/or important tests don't make their code reproducible, or open access, then if any errors or bugs are found it becomes near impossible to detect where they came from. 
+One of the most frustrating aspects of reading systematic papers is that sometimes the details of how analyses were executed are glossed over in the methods section. 
+Also, supplementary files generally only contain the outputs of programs, but not the inputs, which, again, makes it difficult to reproduce the results. 
