@@ -1,11 +1,12 @@
 #! /bin/bash
 #
 
+# need to change this to fit the intructions, should only spit out message when something is wrong. Nothing to confirm it is going well.
 if [ $# -lt 1 ]; then
 Echo "Attention: Must provide a single argument when operating this script"
 else
 [ $# -eq 1 ]
-Echo "FASTA file is loaded correctly
+Echo "FASTA file is loaded correctly" # added an extra quotation to close the loop
 fi
 
 #initialize variable
@@ -28,8 +29,8 @@ done
 
 
 #complement sequence
-rc=`echo $reverse | tr [=CHAR=] 'atcg' 'tagc'`
-
+# modified this to make the script accept input in either case. If the input is lower case the second pipe is ignored
+rc=$(echo $reverse | tr '[:upper:]' '[:lower:]' | tr 'atcg' 'TAGC')
 
 echo $name >$1.rc.txt
 echo $rc >>rc.$1.txt
