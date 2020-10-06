@@ -3,10 +3,10 @@
 
 # need to change this to fit the intructions, should only spit out message when something is wrong. Nothing to confirm it is going well.
 if [ $# -lt 1 ]; then
-Echo "Attention: Must provide a single argument when operating this script"
+echo "Attention: Must provide a single argument when operating this script"
 else
 [ $# -eq 1 ]
-Echo "FASTA file is loaded correctly" # added an extra quotation to close the loop
+echo "FASTA file is loaded correctly" # added an extra quotation to close the loop
 fi
 
 #initialize variable
