@@ -1,0 +1,9 @@
+My current documents are managed in Box. I download and upload revised files using my initials and a letter (A-Z) signifying the version I uploaded.
+ This method has room for mistakes especially since not everyone in my lab utilizes it.
+ They have their own style of addressing newer versions of documents. This can be a hassle when working on grants/big projects such as publications.
+ I have a newfound appreciation for GitHub as it forces participants to acknowledge updates made by colleagues and allows for one to
+ correct mistakes such as editing an older document that has been recently modified. Non reproducible code makes room
+ for errors specifically if someone tries to recreate your project in a similar way but without using your code,they could get different results and contrast the findings in your study. 
+This is a big issue in research where many studies that are recreated are marked as “non-reproducible”. 
+This could be true but it could also be attributed to someone not sharing their code therefore allowing room for interpretation/errors by another lab/researcher that is trying to redo that same study.
+ This is true for my field of study as well since I hope to study diet data. Differences in bioinformatics can lead to different conclusions. 
