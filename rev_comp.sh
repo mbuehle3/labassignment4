@@ -32,5 +32,8 @@ done
 # modified this to make the script accept input in either case. If the input is lower case the second pipe is ignored
 rc=$(echo $reverse | tr '[:upper:]' '[:lower:]' | tr 'atcg' 'TAGC')
 
+#complement sequence with case insensitive input
+rc=`echo $reverse | tr [A-Z] [a-z] | tr 'atcg' 'tagc'`
+
 echo $name >$1.rc.txt
 echo $rc >>rc.$1.txt
