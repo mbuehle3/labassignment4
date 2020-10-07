@@ -1,0 +1,3 @@
+I think my current documents and code would not stnad up to a reproducibility test. 
+In general, non-reproducibile research is not a good thing for computational biology and bioinformatics, after all, producing code is a hard work, so maintain the reproducible is an most important work for multiple fields which rely on the computational work.
+In my field, although we prefer to do experiments to find the results, the bioinformatics work also necessary if we need to further estimate and speculate the results further. Fortunately, We are not short of the reproducibility code so it greatly simplifies our work.
